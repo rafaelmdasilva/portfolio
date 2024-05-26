@@ -7,7 +7,7 @@
 	},
 	{
 		"name": "Shady Shader / JavaScript",
-		"description": "A simple color randomizer that display curated colors via user input, placing them in background. This is my first project to consume an API.",
+		"description": "A simple color randomizer that display curated colors via user input, placing them in background. This is my first project that consumes an API.",
 		"preview": "https://raw.githubusercontent.com/rafaelmdasilva/shady-shader-js/main/images/preview.gif",
 		"source": "https://github.com/rafaelmdasilva/shady-shader-js"
 	},
