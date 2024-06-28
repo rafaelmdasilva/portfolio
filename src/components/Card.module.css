@@ -8,6 +8,7 @@
 	padding: 2rem;
 	transition: scale 0.3s ease;
 	font-size: 1rem;
+	width: 400px;
 }
 
 .card:hover {
@@ -15,13 +16,14 @@
 }
 
 .preview {
-	border-radius: 2%;
+	border-radius: 1rem;
 	width: 400px;
 	height: 300px;
 	object-fit: cover;
 	cursor: pointer;
 	filter: grayscale();
 	transition: filter 0.3s ease;
+	height: 250px;
 }
 
 .preview:hover {
@@ -45,6 +47,9 @@
 @media (max-width: 1366px) {
 	.preview {
 		filter: none;
+	}
+	.card:hover {
+		scale: none;
 	}
 }
 
