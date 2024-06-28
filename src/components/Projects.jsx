@@ -1,25 +1,13 @@
 import Card from './Card';
 import styles from './Projects.module.css';
-import { useState, useEffect } from 'react';
+import ProjectData from '/ProjectData.json';
 
 const Projects = () => {
-	const [parsed, setParsed] = useState(null);
-
-	useEffect(() => {
-		// fetch('../public/ProjectData.json')
-		fetch('./ProjectData.json')
-			//makes the file available during runtime by using the public folder
-
-			.then((response) => response.json())
-			.then((data) => setParsed(data));
-	}, []);
-	//useEffect with an empty array ensures it only runs once, as the component mounts
-
 	return (
 		<div className={styles.wrapper} id='projects'>
-			{parsed &&
-				//checks if parsed is null
-				parsed.map((projects, index) => (
+			{ProjectData &&
+				//checks if ProjectData is null
+				ProjectData.map((projects, index) => (
 					<Card
 						key={index}
 						name={projects.name}
