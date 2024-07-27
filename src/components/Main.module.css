@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 6rem 1rem;
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+.picture {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.title {
+	font-weight: 300;
+}
+
+.name {
+	color: rgb(22, 136, 199);
+	font-family: 'Style Script', cursive;
+}
+
+.content {
+	font-weight: 200;
+	margin: 0;
+}
+
+/* @media (max-width: 768px) {
+	.main {
+		font-size: 1.4rem;
+		margin: 8rem 2rem;
+	}
+	.title {
+		font-size: 2rem;
+	}
+	.content {
+		font-size: 1.1rem;
+	}
+} */

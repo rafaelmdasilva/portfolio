@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Early Bird / React.js",
+		"description": "Early Bird is a React.js application that provides real-time weather data for any location, that dynamically updates the background with stunning images provided by an external API, relevant to the current weather conditions and time of day.",
+		"preview": "https://raw.githubusercontent.com/rafaelmdasilva/early-bird/main/PREVIEW.gif",
+		"source": "https://github.com/rafaelmdasilva/early-bird"
+	},
+	{
+		"name": "Shady Shader / React.js",
+		"description": "This React.js application takes the user through a curated color pool paired with their respective playful names, all provided by an external API. The selected colors will be applied to the background as a gradient, the user is free to randomize each color individually.",
+		"preview": "https://raw.githubusercontent.com/rafaelmdasilva/shady-shader-react/main/preview.gif",
+		"source": "https://github.com/rafaelmdasilva/shady-shader"
+	},
+	{
+		"name": "Color Shuffler / JavaScript",
+		"description": "A simple color shuffler  that display curated colors via user input, placing them in background. This is my first project to consume an API.",
+		"preview": "https://raw.githubusercontent.com/rafaelmdasilva/shady-shader-js/main/images/preview.gif",
+		"source": "https://github.com/rafaelmdasilva/color-shuffler"
+	},
+	{
+		"name": "Current Time / JavaScript",
+		"description": "My very first project, a simple digital clock, shows the system time on a 12h format with a 24h toggle button, followed by a greet, changing the page elements accordingly",
+		"preview": "https://raw.githubusercontent.com/rafaelmdasilva/current-time/main/images/preview.gif",
+		"source": "https://github.com/rafaelmdasilva/current-time"
+	}
+]
